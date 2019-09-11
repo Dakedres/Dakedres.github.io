@@ -1,0 +1,121 @@
+@import 
+url("https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap"); 
+.topLeft, .topRight, #footer {
+  font-family: "Roboto", "Helvetica Neue", sans-serif;
+}
+.topLeft h2, .topLeft h3, .topRight h2, .topRight h3, #footer h2, #footer 
+h3 {
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+.box { border: none;
+}
+.boxHead { color: #000; background: none;
+}
+#country {
+  overflow: hidden; color: transparent; pointer-events: none; user-select: 
+  none;
+}
+#country:before {
+  content: "Elsweyr"; color: #000; pointer-events: initial; user-select: 
+  all; cursor: text;
+}
+.boxInfo .boxHead { overflow: hidden;
+}
+.boxInfo .boxHead b { color: transparent; pointer-events: none; 
+  user-select: none;
+}
+.boxInfo .boxHead b:before { content: "actions"; color: #000; 
+  pointer-events: initial; user-select: all; cursor: text;
+}
+.boxInfo .boxButton { padding-left: 35px;
+}
+.boxInfo .boxButton#sMsg { overflow: hidden; color: transparent; 
+  pointer-events: none; user-select: none;
+}
+.boxInfo .boxButton#sMsg:before { content: "message"; color: #00f; 
+  pointer-events: initial; user-select: all; cursor: text;
+}
+.boxInfo .boxButton#add { overflow: hidden; color: transparent; 
+  pointer-events: none; user-select: none;
+}
+.boxInfo .boxButton#add:before { content: "add"; color: #00f; 
+  pointer-events: initial; user-select: all; cursor: text;
+}
+.boxInfo .boxButton#report { overflow: hidden; color: transparent; 
+  pointer-events: none; user-select: none;
+}
+.boxInfo .boxButton#report:before { content: "report owo"; color: #00f; 
+  pointer-events: initial; user-select: all; cursor: text;
+}
+.boxInfo .boxButton#block { overflow: hidden; color: transparent; 
+  pointer-events: none; user-select: none;
+}
+.boxInfo .boxButton#block:before { content: "block uwu"; color: #00f; 
+  pointer-events: initial; user-select: all; cursor: text;
+}
+.url { margin-bottom: 14px;
+}
+.url div:nth-child(1) { margin-bottom: 11px; overflow: hidden;
+}
+.url div:nth-child(1) b { color: transparent; pointer-events: none; 
+  user-select: none;
+}
+.url div:nth-child(1) b:before { content: "url"; color: #000; 
+  pointer-events: initial; user-select: all; cursor: text;
+}
+.url div:nth-child(2) { margin-left: 7px;
+}
+.blurbs h4 { margin-left: 4px;
+}
+.blurbs h4 + div { margin-left: 4px;
+}
+.blurbs h4:nth-child(2) { overflow: hidden; color: transparent; 
+  pointer-events: none; user-select: none;
+}
+.blurbs h4:nth-child(2):before { content: "about me"; color: #c64; 
+  pointer-events: initial; user-select: all; cursor: text;
+}
+.blurbs h4:nth-child(4) { overflow: hidden; color: transparent; 
+  pointer-events: none; user-select: none;
+}
+.blurbs h4:nth-child(4):before { content: "i wanna meet"; color: #c64; 
+  pointer-events: initial; user-select: all; cursor: text;
+}
+.blurbs p { margin-top: 5px;
+}
+.blurbs :first-child { overflow: hidden;
+}
+.blurbs :first-child b { color: transparent; pointer-events: none; 
+  user-select: none;
+}
+.blurbs :first-child b:before { content: "blurbs"; color: #c64; 
+  pointer-events: initial; user-select: all; cursor: text;
+}
+.blurbs #about a[href="http://md:br"] { display: block; pointer-events: 
+  none; height: 7px; color: transparent;
+}
+.blurbs + .box .rightHead { overflow: hidden;
+}
+.blurbs + .box .rightHead b { color: transparent; pointer-events: none; 
+  user-select: none;
+}
+.blurbs + .box .rightHead b:before { content: "dakedres\\\' fwiends"; 
+  color: #c64; pointer-events: initial; user-select: all; cursor: text;
+}
+.blurbs + .box .fwiendCounter { margin-left: 5px;
+}
+.blurbs + .box .fwiendCounter .uName { text-transform: lowercase;
+}
+#viewFriends b {
+  font-size: 0; color: transparent; user-select: none;
+}
+#viewFriends b:before, #viewFriends b a {
+  font-size: 15px; user-select: initial;
+}
+#viewFriends b:before {
+  color: #000; content: "view ";
+}
+#viewFriends b a {
+  text-transform: lowercase; color: blue; user-select: initial;
+}
+/*# sourceMappingURL=style.css.map */
