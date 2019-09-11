@@ -1,7 +1,5 @@
-@import 
-url("https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap"); 
-.topLeft, .topRight, #footer {
-  font-family: "Roboto", "Helvetica Neue", sans-serif;
+.topLeft, .topRight, #footer { font-family: "Roboto", "Helvetica Neue", 
+  sans-serif;
 }
 .topLeft h2, .topLeft h3, .topRight h2, .topRight h3, #footer h2, #footer 
 h3 {
